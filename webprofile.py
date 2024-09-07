@@ -1,13 +1,13 @@
 import streamlit as st
 
 # Page configuration
-st.set_page_config(page_title="Jeerasak Ananta", page_icon="🔱")
+st.set_page_config(page_title="HADES", page_icon="🔱")
 
 # Title
 st.title("🔱 Whoami")
 
 # Introduction
-st.subheader("I'm Jeerasak Ananta (Game)")
+st.subheader("I'm HADES assistant (system)")
 st.write("""
 - 2022 - Present 🧑 Student in Computer Science [CS RMUTL NAN](https://nan.rmutl.ac.th/)
 - 2024 - SuperAI Engineer Season 4
@@ -18,9 +18,6 @@ st.write("""
 st.subheader("🧑‍💻 What I'm Doing Now")
 st.write("""
 - 💻 Studying Computer Science
-- 👨‍💻 For fun [Leet Code](https://tryhackme.com/)
-- 🚩 CTFs player [TryHackMe](https://leetcode.com/_JeerasaK_/)
-- 🐧 Linux lover
 - 🤖 Learning anything with Machine Learning
 """)
 
@@ -70,17 +67,5 @@ st.write("""
 - [ ] Working in ~~software development~~ AI&ML roles
 """)
 
-# Contact Information
-st.subheader("📩 Connect with Me")
-st.write("""
-- 📩 jeerasakananta@gmail.com
-- 🔗 [LinkedIn](https://www.linkedin.com/in/jeerasak-ananta-a1b4231a2/)
-- 📖 [Medium](https://medium.com/@jeerasakananta_1762/about)
-""")
-
-# GitHub Stats
-st.subheader("GitHub Stats")
-st.image("https://github-readme-stats.vercel.app/api?username=JeerasakAnanta", use_column_width=True)
-
 # Footer
-st.write("Thank you krub for reading :) 💯💪")
+st.write("Thank you for reading :) 💯💪")
